@@ -7,7 +7,7 @@
 ---
 
 - **Location:** Minsk, Belarus
-- **Tel:** +375296224641
+- **Tel:** +375296224642
 - **Email:** maryia.parynava@gmail.com
 - **LinkedIn:** [https://www.linkedin.com/in/maria-parinova/](https://www.linkedin.com/in/maria-parinova/)
 - **GitHub:** [mariaparinova](https://github.com/mariaparinova)
