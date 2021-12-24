@@ -28,7 +28,7 @@ I like studying, working and being useful. I have a good attitude to critique be
 
 ## Code example
 
-```JS
+```javascript
 let i = 0;
 
 while (i < 3) {
