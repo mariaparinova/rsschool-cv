@@ -72,7 +72,29 @@ section:nth-child(n+2) {
     width: 100%;
 }
 
-.header-name {
+.navigation {
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    height: 60px;
+}
+
+.navigation a {
+    color: #515454;
+    text-decoration: none;
+}
+
+.navigation li {
+    display: inline;
+}
+
+.navigation li:nth-child(n+2) {
+    margin-left: 32px;
+}
+
+.header-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,7 +103,7 @@ section:nth-child(n+2) {
     width: 568px;
 }
 
-.header-name .job-position {
+.header-content .job-position {
     margin-top: 12px;
 }
 
