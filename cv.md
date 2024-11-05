@@ -66,6 +66,15 @@ export function BlockGallery(props: BlockGalleryProps) {
 }
 ```
 
+## Experience
+
+**Developed Responsive Web Pages:** Created responsive web pages using HTML, CSS, and JavaScript. Focused on optimizing performance and ensuring a clean, maintainable codebase to deliver seamless user experiences across devices.
+
+**Single Page Application (SPA) Development with React:** Built SPAs leveraging React and its ecosystem, including React Router and Redux for state management. Applied best practices for code structure and reusability, producing scalable and dynamic web applications.
+
+**Testing and Quality Assurance:** Gained foundational skills in testing by using Jest for unit tests. Focused on writing basic test cases to verify functionality and build a habit of quality assurance in development.
+
+
 ## Education
 
 **2023**
