@@ -90,3 +90,12 @@ Interface design basics by DesignSpot School
 
 **2010-2014**
 International University “MITSO”, International economic relations and management
+
+## English
+
+B1+
+
+- Studied with a private teacher
+- Learning resources: English file by Oxford University Press and Essential Grammar in use by
+Cambridge University Press
+- Have communication experience with native speakers on general topics.
