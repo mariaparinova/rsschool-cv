@@ -10,6 +10,21 @@ junior front-end developer
 
 [Linkedin](https://www.linkedin.com/in/maria-parinova/)
 
+## Summary
+
+Junior Frontend Developer with a strong foundation in web development and English language skills.
+Motivated and detail-oriented.
+I have theoretical knowledge and practical experience in creating responsive web pages and creating 
+single page application using React and its ecosystem.
+
+
+Familiar with writing tests using Jest.
+Also I have basic knowledge in UX/UI design: prototyping, visual design, responsive design, UI
+patterns and guidelines.
+
+Looking for opportunities to apply my knowledge and grow as a professional in a dynamic team
+environment.
+
 ## Education
 
 **2023**
