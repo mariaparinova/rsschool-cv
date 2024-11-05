@@ -25,6 +25,47 @@ patterns and guidelines.
 Looking for opportunities to apply my knowledge and grow as a professional in a dynamic team
 environment.
 
+## Skills
+
+- **Languages:** HTML, CSS, JavaScript, TypeScript
+- **Frameworks/Libraries:** React, Redux, Jest
+- **Tools:** WebStorm, Chrome DevTools, Git, GitHub, Figma
+- **Applied Sciences:** Computer Sciences, Object-oriented Programming, Clean Code
+
+## Code examples
+
+Small component from recent project:
+
+```tsx
+
+import './BlockGallery.styles.css';
+
+interface BlockGalleryProps {
+  paths: string[];
+}
+
+export function BlockGallery(props: BlockGalleryProps) {
+  const { paths } = props;
+
+  return (
+    <div className="block-gallery">
+      <h2>
+        Perfect place where you can relax, catch up with friends, or get some work done
+      </h2>
+      <div className="pictures-container">
+        {paths.map((path) => {
+          return (
+            <div key={path} className="img-container">
+              <img src={path} alt="Picture" />
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+```
+
 ## Education
 
 **2023**
