@@ -36,33 +36,23 @@ environment.
 
 Small component from recent project:
 
-```tsx
+## Code example
+**Unlucky Days KATA from CODEWARS:** Friday 13th or Black Friday is considered as unlucky day. Calculate how many unlucky days are in the given year.
 
-import './BlockGallery.styles.css';
+```js
 
-interface BlockGalleryProps {
-  paths: string[];
-}
+function unluckyDays(year){
+  const friday = 5;
+  const monthsInYear = 12;
+  let counter = 0;
 
-export function BlockGallery(props: BlockGalleryProps) {
-  const { paths } = props;
+  for (let i = 0; i < monthsInYear; i++) {
+    if (new Date(year, i, 13).getDay() === 5) {
+      counter++;
+    }
+  }
 
-  return (
-    <div className="block-gallery">
-      <h2>
-        Perfect place where you can relax, catch up with friends, or get some work done
-      </h2>
-      <div className="pictures-container">
-        {paths.map((path) => {
-          return (
-            <div key={path} className="img-container">
-              <img src={path} alt="Picture" />
-            </div>
-          );
-        })}
-      </div>
-    </div>
-  );
+  return counter;
 }
 ```
 
