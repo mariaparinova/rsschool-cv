@@ -63,6 +63,10 @@ h6 {
   font-weight: bold;
 }
 
+p:not(:first-child) {
+  margin-top: 12px;
+}
+
 header {
   display: flex;
   height: 382px;
@@ -102,8 +106,8 @@ main {
     display: flex;
 
     & h2 {
-      padding-left: 48px;
       width: 100%;
+      text-transform: capitalize;
     }
 
     & .data-accent {
@@ -117,6 +121,7 @@ main {
         }
 
         & h2 {
+          padding-left: 48px;
           background-color: rgb(255, 255, 255, 0.2);
         }
 
@@ -156,6 +161,33 @@ main {
             margin-top: 8px;
           }
         }
+      }
+    }
+
+    & .data-regular {
+      width: 616px;
+
+      & h2 {
+        display: flex;
+        align-items: center;
+        background-color: #E9E9E9;
+
+        &::before {
+          content: "";
+          display: block;
+          margin: 0 14px;
+          width: 20px;
+          height: 20px;
+          background-color: var(--color-secondary);
+        }
+      }
+
+      & .content {
+        padding: 20px 0 60px 48px;
+      }
+
+      & .skills .item {
+        margin-top: 8px;
       }
     }
   }
