@@ -32,10 +32,6 @@ environment.
 - **Tools:** WebStorm, Chrome DevTools, Git, GitHub, Figma
 - **Applied Sciences:** Computer Sciences, Object-oriented Programming, Clean Code
 
-## Code examples
-
-Small component from recent project:
-
 ## Code example
 **Unlucky Days KATA from CODEWARS:** Friday 13th or Black Friday is considered as unlucky day. Calculate how many unlucky days are in the given year.
 
