@@ -15,12 +15,12 @@
                 <ul class="subheader-items-container">
                     <li><a href="#summary">Summary</a></li>
                     <li><a href="#skills">Skills</a></li>
-                    <li><a href="#code-example">Code examples</a></li>
+                    <li><a href="#code">Code examples</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#english">English</a></li>
                 </ul>
                 <h1>Maria Parinova</h1>
-                <div class="additional-info">Front-end developer</div>
+                <div class="additional-info">JUNIOR FRONTEND DEVELOPER</div>
             </div>
             <div class="content"></div>
         </div>
@@ -73,7 +73,7 @@
                 </div>
             </div>
             <div class="data-container data-regular">
-                <div class="data-item summary">
+                <div class="data-item summary" id="summary">
                     <h2>summary</h2>
                     <div class="content">
                         <p>
@@ -92,7 +92,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="data-item skills">
+                <div class="data-item skills" id="skills">
                     <h2>skills</h2>
                     <div class="content">
                         <ul class="dotted-list">
@@ -103,21 +103,72 @@
                         </ul>
                     </div>
                 </div>
-                <div class="data-item code">
+                <div class="data-item code" id="code">
                     <h2>code example</h2>
-                    <div class="content"></div>
+                    <div class="content">
+                        <b>Kata from codewars:</b>
+                        <p>
+                            Friday 13th or Black Friday is considered as unlucky day.
+                            Calculate how many unlucky days are in the given year
+                        </p>
+                        <pre class="code-example">
+                            <code>
+<span class="code-color">function</span> unluckyDays(year){
+  const friday = 5;
+  const monthsInYear = 12;
+  let counter = 0;
+
+  for (let i = 0; i < monthsInYear; i++) {
+    if (new Date(year, i, 13).getDay() === friday) {
+      counter++;
+    }
+  }
+
+  <span class="code-color">return</span> counter;
+}
+                            </code>
+                     </pre>
+                    </div>
                 </div>
-                <div class="data-item experience">
+                <div class="data-item experience" id="experience">
                     <h2>experience</h2>
-                    <div class="content"></div>
+                    <div class="content">
+                        <p>
+                            <b>Developed Responsive Web Pages: </b>
+                            Created responsive web pages using HTML, CSS, and JavaScript. Focused on optimizing performance
+                            and ensuring a clean, maintainable codebase to deliver seamless user experiences across devices.
+                        </p>
+                        <p>
+                            <b>Single Page Application (SPA) Development with React: </b>
+                            Built SPAs leveraging React and its ecosystem, including React Router and Redux for state management.
+                            Applied best practices for code structure and reusability, producing scalable and dynamic web applications.
+                        </p>
+                        <p>
+                            <b>Testing and Quality Assurance:</b>
+                            Gained foundational skills in testing by using Jest for unit tests. Focused on writing basic test cases to
+                            verify functionality and build a habit of quality assurance in development.
+                        </p>
+                    </div>
                 </div>
-                <div class="data-item english">
+                <div class="data-item english" id="english">
                     <h2>english</h2>
-                    <div class="content"></div>
+                    <div class="content">
+                        <b>B1+</b>
+                        <ul class="dotted-list">
+                            <li class="item">Studied with a private teacher</li>
+                            <li class="item">
+                                Learning resources: English file by Oxford University Press and Essential Grammar in use
+                                by Cambridge University Press
+                            </li>
+                            <li class="item">Have communication experience with native speakers on general topics.</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
-    <footer></footer>
+    <footer>
+
+    </footer>
 </body>
 </html>
