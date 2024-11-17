@@ -1,12 +1,14 @@
 # Maria Parinova
-junior front-end developer
+junior frontend developer
 
 ## Contacts
 **Locations**: Poland
 
 **Phone**: +485******41
 
-**gmail**: maryia.example@gmail.com
+**Gmail**: maryia.example@gmail.com
+
+**Discord**: Maria-p (@mariaparinova)
 
 [Linkedin](https://www.linkedin.com/in/maria-parinova/)
 
@@ -32,10 +34,6 @@ environment.
 - **Tools:** WebStorm, Chrome DevTools, Git, GitHub, Figma
 - **Applied Sciences:** Computer Sciences, Object-oriented Programming, Clean Code
 
-## Code examples
-
-Small component from recent project:
-
 ## Code example
 **Unlucky Days KATA from CODEWARS:** Friday 13th or Black Friday is considered as unlucky day. Calculate how many unlucky days are in the given year.
 
@@ -47,7 +45,7 @@ function unluckyDays(year){
   let counter = 0;
 
   for (let i = 0; i < monthsInYear; i++) {
-    if (new Date(year, i, 13).getDay() === 5) {
+    if (new Date(year, i, 13).getDay() === friday) {
       counter++;
     }
   }
@@ -78,7 +76,7 @@ program, Stack Overflow
 **2021**
 Interface design basics by DesignSpot School
 
-**2010-2014**
+**2014**
 International University “MITSO”, International economic relations and management
 
 ## English
