@@ -40,7 +40,7 @@ li {
 
 a {
   text-decoration: none;
-  color: var(--color-primary);
+  color: #3F81E4;
 
   &:hover {
     color: var(--color-secondary);
@@ -81,7 +81,7 @@ header {
   & .details {
     padding-left: 48px;
 
-    & .subheader-items-container {
+    & .navigation-items-container {
       display: flex;
       padding: 20px 0;
       text-transform: capitalize;
