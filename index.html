@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="avatar">
+            <img src="./src/assets/img/avatar.jpg" alt="Avatar">
+        </div>
+        <div class="details">
+            <nav class="navigation">
+                <ul class="navigation-items-container">
+                    <li><a href="#summary">Summary</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#code">Code examples</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#english">English</a></li>
+                </ul>
+            </nav>
+            <div class="content">
+                <h1>Maria Parinova</h1>
+                <div class="additional-info">JUNIOR FRONTEND DEVELOPER</div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="content-container">
+            <div class="data-container data-accent">
+                <div class="data-item contacts">
+                    <h2>Contacts</h2>
+                    <ul class="details">
+                        <li class="item">
+                            <img class="icon" src="./src/assets/icons/map.svg" alt="icon">
+                            <div class="content">Warsaw, Poland</div>
+                        </li>
+                        <li class="item">
+                            <img class="icon" src="./src/assets/icons/phone.svg" alt="icon">
+                            <div class="content">+485******41</div>
+                        </li>
+                        <li class="item">
+                            <img class="icon" src="./src/assets/icons/gmail.svg" alt="icon">
+                            <div class="content">maryia.parynava@gmail.com</div>
+                        </li>
+                        <li class="item">
+                            <img class="icon" src="./src/assets/icons/linkedin.svg" alt="icon">
+                            <div class="content">www.linkedin.com/in/maria-parinova</div>
+                        </li>
+                        <li class="item">
+                            <img class="icon" src="./src/assets/icons/discord.svg" alt="icon">
+                            <div class="content">Maria-p (@mariaparinova)</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="data-item education">
+                    <h2>Education</h2>
+                    <ul class="details">
+                        <li class="item">
+                            <h6>2023 Self-education. Learning Resources:</h6>
+                            <div class="sub-item text-xs">The Modern JavaScript Tutorial with practice, MDN Web Docs, W3Schools, The RSS School program, Stack Overflow</div>
+                            <div class="sub-item text-xs"><b>Official documentations:</b> React, React Router, Redux, Redux-Toolkit, TypeScript</div>
+                            <div class="sub-item text-xs"><b>For training skills in data-structure and algorithm:</b> Leetcode, Codewars</div>
+                        </li>
+                        <li class="item">
+                            <h6>2021 Interface design basics by DesignSpot School</h6>
+                        </li>
+                        <li class="item">
+                            <h6>2014 International University “MITSO”</h6>
+                            <div class="content text-xs">International economic relations and management</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="data-container data-regular">
+                <div class="data-item summary" id="summary">
+                    <h2>summary</h2>
+                    <div class="content">
+                        <p>
+                            Junior Frontend Developer with a strong foundation in web development and
+                            English language skills. Motivated and detail-oriented. I have theoretical
+                            knowledge and practical experience in creating responsive web pages and creating
+                            single page application using React and its ecosystem.
+                        </p>
+                        <p>
+                            Familiar with writing tests using Jest. Also I have basic knowledge in UX/UI design:
+                            prototyping, visual design, responsive design, UI patterns and guidelines.
+                        </p>
+                        <p>
+                            Looking for opportunities to apply my knowledge and grow as a professional in a
+                            dynamic team environment.
+                        </p>
+                    </div>
+                </div>
+                <div class="data-item skills" id="skills">
+                    <h2>skills</h2>
+                    <div class="content">
+                        <ul class="dotted-list">
+                            <li class="item"><b>Languages: </b>HTML, CSS, JavaScript, TypeScript</li>
+                            <li class="item"><b>Frameworks/Libraries: </b>React, Redux, Jest</li>
+                            <li class="item"><b>Tools: </b>WebStorm, Chrome DevTools, Git, GitHub, Figma</li>
+                            <li class="item"><b>Applied Sciences: </b>Computer Sciences, Object-oriented Programming, Clean Code</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="data-item code" id="code">
+                    <h2>code example</h2>
+                    <div class="content">
+                        <b>Kata from codewars:</b>
+                        <p>
+                            Friday 13th or Black Friday is considered as unlucky day.
+                            Calculate how many unlucky days are in the given year
+                        </p>
+                        <pre class="code-example">
+                            <code>
+<span class="code-color">function</span> unluckyDays(year){
+  const friday = 5;
+  const monthsInYear = 12;
+  let counter = 0;
+
+  for (let i = 0; i &lt; monthsInYear; i++) {
+    if (new Date(year, i, 13).getDay() === friday) {
+      counter++;
+    }
+  }
+
+  <span class="code-color">return</span> counter;
+}
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+                <div class="data-item experience" id="experience">
+                    <h2>experience</h2>
+                    <div class="content">
+                        <p>
+                            <b>Developed Responsive Web Pages: </b>
+                            Created responsive web pages using HTML, CSS, and JavaScript. Focused on optimizing performance
+                            and ensuring a clean, maintainable codebase to deliver seamless user experiences across devices.
+                        </p>
+                        <p>
+                            <b>Single Page Application (SPA) Development with React: </b>
+                            Built SPAs leveraging React and its ecosystem, including React Router and Redux for state management.
+                            Applied best practices for code structure and reusability, producing scalable and dynamic web applications.
+                        </p>
+                        <p>
+                            <b>Testing and Quality Assurance:</b>
+                            Gained foundational skills in testing by using Jest for unit tests. Focused on writing basic test cases to
+                            verify functionality and build a habit of quality assurance in development.
+                        </p>
+                        <p>
+                            <b>Educational projects:</b>
+                            <a href="https://mariaparinova.github.io/rsschool-cv/"><b>CV-task</b></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="data-item english" id="english">
+                    <h2>english</h2>
+                    <div class="content">
+                        <b>B1+</b>
+                        <ul class="dotted-list">
+                            <li class="item">Studied with a private teacher</li>
+                            <li class="item">
+                                Learning resources: English file by Oxford University Press and Essential Grammar in use
+                                by Cambridge University Press
+                            </li>
+                            <li class="item">Have communication experience with native speakers on general topics.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="content-container">
+            <div class="item">
+                <a href="https://github.com/mariaparinova">
+                    <img src="./src/assets/icons/github.svg" alt="GitHub">
+                </a>
+            </div>
+            <div class="item rs-logo">
+                <a href="https://rs.school/courses/javascript">
+                    <img src="./src/assets/icons/rschool-logo.svg" alt="RS school">
+                </a>
+            </div>
+            <div class="item">
+                2024
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

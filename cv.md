@@ -1,0 +1,89 @@
+# Maria Parinova
+junior frontend developer
+
+## Contacts
+**Locations**: Poland
+
+**Phone**: +485******41
+
+**Gmail**: maryia.example@gmail.com
+
+**Discord**: Maria-p (@mariaparinova)
+
+[Linkedin](https://www.linkedin.com/in/maria-parinova/)
+
+## Summary
+
+Junior Frontend Developer with a strong foundation in web development and English language skills.
+Motivated and detail-oriented.
+I have theoretical knowledge and practical experience in creating responsive web pages and creating 
+single page application using React and its ecosystem.
+
+
+Familiar with writing tests using Jest.
+Also I have basic knowledge in UX/UI design: prototyping, visual design, responsive design, UI
+patterns and guidelines.
+
+Looking for opportunities to apply my knowledge and grow as a professional in a dynamic team
+environment.
+
+## Skills
+
+- **Languages:** HTML, CSS, JavaScript, TypeScript
+- **Frameworks/Libraries:** React, Redux, Jest
+- **Tools:** WebStorm, Chrome DevTools, Git, GitHub, Figma
+- **Applied Sciences:** Computer Sciences, Object-oriented Programming, Clean Code
+
+## Code example
+**Unlucky Days KATA from CODEWARS:** Friday 13th or Black Friday is considered as unlucky day. Calculate how many unlucky days are in the given year.
+
+```js
+
+function unluckyDays(year){
+  const friday = 5;
+  const monthsInYear = 12;
+  let counter = 0;
+
+  for (let i = 0; i < monthsInYear; i++) {
+    if (new Date(year, i, 13).getDay() === friday) {
+      counter++;
+    }
+  }
+
+  return counter;
+}
+```
+
+## Experience
+
+**Developed Responsive Web Pages:** Created responsive web pages using HTML, CSS, and JavaScript. Focused on optimizing performance and ensuring a clean, maintainable codebase to deliver seamless user experiences across devices.
+
+**Single Page Application (SPA) Development with React:** Built SPAs leveraging React and its ecosystem, including React Router and Redux for state management. Applied best practices for code structure and reusability, producing scalable and dynamic web applications.
+
+**Testing and Quality Assurance:** Gained foundational skills in testing by using Jest for unit tests. Focused on writing basic test cases to verify functionality and build a habit of quality assurance in development.
+
+
+## Education
+
+**2023**
+Self-education.
+Learning Resources:
+- The Modern JavaScript Tutorial with practice, MDN Web Docs, W3Schools, The RSS School
+program, Stack Overflow
+- Official documentations: React, React Router, Redux, Redux-Toolkit, TypeScript
+- For training skills in data-structure and algorithm: Leetcode, Codewars
+
+**2021**
+Interface design basics by DesignSpot School
+
+**2014**
+International University “MITSO”, International economic relations and management
+
+## English
+
+B1+
+
+- Studied with a private teacher
+- Learning resources: English file by Oxford University Press and Essential Grammar in use by
+Cambridge University Press
+- Have communication experience with native speakers on general topics.
