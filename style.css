@@ -17,7 +17,7 @@ body {
   flex-direction: column;
   margin: 0 auto;
   min-height: 100vh;
-  width: 1216px;
+  max-width: 1120px;
   font-family: 'Roboto', sans-serif;
   color: #515454;
 
@@ -54,7 +54,7 @@ h1 {
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: bold;
   text-transform: capitalize;
 }
@@ -64,40 +64,54 @@ h6 {
   font-weight: bold;
 }
 
+p {
+  line-height: 24px;
+}
+
 p:not(:first-child) {
   margin-top: 12px;
 }
 
 header {
   display: flex;
-  height: 382px;
+  height: 340px;
 
   & .avatar {
     display: flex;
     align-items: center;
-    width: 416px;
+    flex-shrink: 0;
+    width: 380px;
     background-color: var(--color-primary);
+
+    & img {
+      width: 100%;
+    }
   }
 
-  & .details {
-    padding-left: 48px;
+  & .header-content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2em;
 
     & .navigation-items-container {
       display: flex;
+      gap: 24px;
       padding: 20px 0;
       text-transform: capitalize;
+    }
 
-      & :nth-child(n+2) {
-        margin-left: 32px;
-      }
+    & .name-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex-shrink: 2;
     }
 
     & h1 {
-      margin-top: 88px;
       color: var(--color-secondary);
     }
 
-    & .additional-info {
+    & .title {
       margin-top: 12px;
     }
   }
@@ -108,22 +122,21 @@ main {
     display: flex;
 
     & h2 {
-      width: 100%;
       text-transform: capitalize;
     }
 
     & .data-accent {
-      width: 416px;
+      display: flex;
+      flex-direction: column;
+      flex-shrink: 0;
+      gap: 60px;
+      max-width: 380px;
       color: #F6F6F6;
       background-color: var(--color-primary);
 
       & .data-item {
-        &:not(:first-child) {
-          margin-top: 60px;
-        }
-
         & h2 {
-          padding-left: 48px;
+          padding-left: 1.5em;
           background-color: rgb(255, 255, 255, 0.2);
         }
 
@@ -132,42 +145,35 @@ main {
         }
 
         & .details {
-          padding: 16px 8px 0 40px;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          padding: 1em 0.5em 0 2em;
         }
 
         &.contacts {
           & .item {
             display: flex;
             align-items: center;
-
-            &:not(:first-child) {
-              margin-top: 8px;
-            }
-
-            & .content {
-              margin-left: 12px;
-            }
+            gap: 12px;
           }
         }
 
         &.education {
-          & .item:not(:first-child) {
-            margin-top: 18px;
-          }
+          display: flex;
+          flex-direction: column;
+          gap: 16px;
 
-          & .content {
-            margin-top: 4px;
-          }
-
-          & .sub-item {
+          & .education-item {
             margin-top: 8px;
+            line-height: 20px;
           }
         }
       }
     }
 
     & .data-regular {
-      width: 616px;
+      flex-shrink: 2;
 
       & h2 {
         display: flex;
@@ -184,21 +190,23 @@ main {
         }
       }
 
-      & .content {
-        padding: 20px 0 60px 48px;
+      & .data-regular-content {
+        padding: 1em 0 2em 2em;
       }
 
-      & .item {
-        margin-top: 8px;
+      & .skills-list {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-left: 12px;
       }
 
       & .code {
         .code-example {
           position: relative;
-          left: -48px;
           margin-top: 8px;
           padding: 12px 12px 12px 48px;
-          width: 616px;
+          width: 100%;
           background-color: rgb(255, 255, 255, 0.6);
         }
       }
