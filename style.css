@@ -20,10 +20,6 @@ body {
   max-width: 1120px;
   font-family: 'Roboto', sans-serif;
   color: #515454;
-
-  & > * {
-    background-color: var(--color-bg);
-  }
 }
 
 img {
@@ -59,7 +55,7 @@ h2 {
   text-transform: capitalize;
 }
 
-h6 {
+h3 {
   font-size: 16px;
   font-weight: bold;
 }
@@ -75,6 +71,7 @@ p:not(:first-child) {
 header {
   display: flex;
   height: 340px;
+  background-color: var(--color-bg);
 
   & .avatar {
     display: flex;
@@ -95,7 +92,7 @@ header {
 
     & .navigation-items-container {
       display: flex;
-      gap: 24px;
+      gap: 12px;
       padding: 20px 0;
       text-transform: capitalize;
     }
@@ -174,6 +171,7 @@ main {
 
     & .data-regular {
       flex-shrink: 2;
+      background-color: var(--color-bg);
 
       & h2 {
         display: flex;
